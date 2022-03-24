@@ -46,7 +46,6 @@ export default class Home extends Vue {}
     #cc2366 75%,
     #bc1888 100%
   );
-  position: fixed;
 }
 #fontnavbar {
   font-family: HaloHandletter;
