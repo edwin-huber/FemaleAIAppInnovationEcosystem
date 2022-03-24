@@ -1,5 +1,6 @@
 <template>
-  <div id="app" color=#333>
+  <div id="app">
+    
     <b-navbar fixed-top :mobile-burger="false">
       <template #brand>
         <div id="left"></div>
@@ -36,6 +37,17 @@ export default class Home extends Vue {}
 </script>
 
 <style scoped>
+#app {
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  position: fixed;
+}
 #fontnavbar {
   font-family: HaloHandletter;
 }
